@@ -1,0 +1,62 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Styling */
+form {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #ff9a9e;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    transform: scale(1.05);
+}
+
+/* Weather Display */
+p {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+/* Error Message */
+#error {
+    color: rgb(255, 50, 50);
+    font-weight: bold;
+}
